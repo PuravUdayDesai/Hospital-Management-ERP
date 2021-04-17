@@ -3,6 +3,8 @@ Mini Project for subject RPPOOP(Rapid Prototyping Object Oriented Programming)
 
 ## Database Function Documentation
 
+### Add Doctor
+
 #### Function Name
 ```sql
 fn_add_doctor
@@ -28,6 +30,8 @@ boolean
 ```
 
 ---
+
+### Add Patient
 
 #### Function Name
 ```sql
@@ -58,6 +62,8 @@ boolean
 
 ---
 
+### User Login
+
 #### Function Name
 ```sql
 fn_login_user
@@ -79,6 +85,8 @@ username text
 ```
 
 ---
+
+### Search Doctor
 
 #### Function Name
 ```sql
@@ -106,6 +114,8 @@ Used to provice search functionality to doctor's list
 ```
 
 ---
+
+### Search Patient
 
 #### Function Name
 ```sql
@@ -139,6 +149,8 @@ Used to provice search functionality to patient's list
 
 ---
 
+### Select All COVID-19 Patients
+
 #### Function Name
 ```sql
 fn_select_all_covid_patients
@@ -171,6 +183,8 @@ Used to select all covid-19 affected patient's in database
 
 ---
 
+### Select All Doctors
+
 #### Function Name
 ```sql
 fn_select_all_doctors
@@ -197,6 +211,8 @@ Used to select all doctor's in database
 ```
 
 ---
+
+### Select All Patients
 
 #### Function Name
 ```sql
@@ -230,6 +246,8 @@ Used to select all patient's in database
 ```
 
 ---
+
+### Select All Doctors (id, name)
 
 #### Function Name
 ```sql
