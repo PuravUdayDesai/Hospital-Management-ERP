@@ -200,33 +200,6 @@ Used to select all doctor's in database
 
 #### Function Name
 ```sql
-fn_select_all_doctors
-```
-
-#### Function Parameter
-```sql
-  void
-```
-
-#### Function Descriptions
-
-Used to select all doctor's in database
-
-#### Returns
-```sql
-		doctor_id bigint, 
-		doctor_name text, 
-		doctor_age integer, 
-		doctor_gender boolean,
-		doctor_specialization text, 
-		doctor_experience integer, 
-		doctor_contact_number text
-```
-
----
-
-#### Function Name
-```sql
 fn_select_all_patients
 ```
 
