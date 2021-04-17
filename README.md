@@ -3,12 +3,12 @@ Mini Project for subject RPPOOP(Rapid Prototyping Object Oriented Programming)
 
 ## Database Function Documentation
 
-### Function Name
+#### Function Name
 ```sql
 fn_add_doctor
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
 	doctor_name text,
 	doctor_age integer,
@@ -18,23 +18,23 @@ fn_add_doctor
 	doctor_contact_number text
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to add a new doctor
 
-### Returns
+#### Returns
 ```sql
 boolean
 ```
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_add_patient
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
 	patient_name text,
 	patient_age integer,
@@ -47,54 +47,54 @@ fn_add_patient
 	covid_patient_flag boolean
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to add a new patient
 
-### Returns
+#### Returns
 ```sql
 boolean
 ```
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_login_user
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
 	username text,
 	password text
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to provice user login validation
 
-### Returns
+#### Returns
 ```sql
 username text
 ```
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_search_doctor
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
   doctor_name text
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to provice search functionality to doctor's list
 
-### Returns
+#### Returns
 ```sql
 		doctor_id bigint, 
 		doctor_name text, 
@@ -107,21 +107,21 @@ Used to provice search functionality to doctor's list
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_search_patient
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
   patient_name text
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to provice search functionality to patient's list
 
-### Returns
+#### Returns
 ```sql
 		patient_id bigint, 
 		patient_name text, 
@@ -139,21 +139,21 @@ Used to provice search functionality to patient's list
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_select_all_covid_patients
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
   void
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to select all covid-19 affected patient's in database
 
-### Returns
+#### Returns
 ```sql
 		patient_id bigint,
 		patient_name text,
@@ -171,21 +171,21 @@ Used to select all covid-19 affected patient's in database
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_select_all_doctors
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
   void
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to select all doctor's in database
 
-### Returns
+#### Returns
 ```sql
 		doctor_id bigint, 
 		doctor_name text, 
@@ -198,21 +198,21 @@ Used to select all doctor's in database
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_select_all_doctors
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
   void
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to select all doctor's in database
 
-### Returns
+#### Returns
 ```sql
 		doctor_id bigint, 
 		doctor_name text, 
@@ -225,22 +225,22 @@ Used to select all doctor's in database
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_select_all_patients
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
   void
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to select all patient's in database
 
 
-### Returns
+#### Returns
 ```sql
 		patient_id bigint,
 		patient_name text, 
@@ -258,22 +258,22 @@ Used to select all patient's in database
 
 ---
 
-### Function Name
+#### Function Name
 ```sql
 fn_select_all_doctor_name_id
 ```
 
-### Function Parameter
+#### Function Parameter
 ```sql
   void
 ```
 
-### Function Descriptions
+#### Function Descriptions
 
 Used to select all doctor's id and name in database
 
 
-### Returns
+#### Returns
 ```sql
 	doctor_id bigint, 
 	doctor_name text
