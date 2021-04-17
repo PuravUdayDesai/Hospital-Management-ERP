@@ -29,6 +29,18 @@ Used to add a new doctor
 boolean
 ```
 
+#### Query
+```sql
+SELECT * FROM public.fn_add_doctor(
+	doctor_name text,
+	doctor_age integer,
+	doctor_gender boolean,
+	doctor_specialization text,
+	doctor_experience integer,
+	doctor_contact_number text
+);
+```
+
 ---
 
 ### Add Patient
@@ -60,6 +72,21 @@ Used to add a new patient
 boolean
 ```
 
+#### Query
+```sql
+SELECT * FROM public.fn_add_patient(
+	patient_name text,
+	patient_age integer,
+	patient_gender boolean,
+	patient_contact_number text,
+	patient_email_id text,
+	patient_disease text,
+	patient_ward_number text,
+	doctor_assigned bigint,
+	covid_patient_flag boolean
+);
+```
+
 ---
 
 ### User Login
@@ -82,6 +109,14 @@ Used to provice user login validation
 #### Returns
 ```sql
 username text
+```
+
+#### Query
+```sql
+SELECT * FROM public.fn_login_user(
+	username text,
+	password text
+);
 ```
 
 ---
@@ -111,6 +146,13 @@ Used to provice search functionality to doctor's list
 		doctor_specialization text, 
 		doctor_experience integer, 
 		doctor_contact_number text
+```
+
+#### Query
+```sql
+SELECT * FROM public.fn_search_doctor(
+	doctor_name text
+);
 ```
 
 ---
@@ -147,6 +189,12 @@ Used to provice search functionality to patient's list
 		covid_patient_flag boolean
 ```
 
+#### Query
+```sql
+SELECT * FROM public.fn_search_patient(
+	patient_name text
+);
+```
 ---
 
 ### Select All COVID-19 Patients
@@ -181,6 +229,11 @@ Used to select all covid-19 affected patient's in database
 		covid_patient_flag boolean
 ```
 
+#### Query
+```sql
+SELECT * FROM public.fn_select_all_covid_patients();
+```
+
 ---
 
 ### Select All Doctors
@@ -208,6 +261,11 @@ Used to select all doctor's in database
 		doctor_specialization text, 
 		doctor_experience integer, 
 		doctor_contact_number text
+```
+
+#### Query
+```sql
+SELECT * FROM public.fn_select_all_doctors();
 ```
 
 ---
@@ -245,6 +303,11 @@ Used to select all patient's in database
 		covid_patient_flag boolean
 ```
 
+#### Query
+```sql
+SELECT * FROM public.fn_select_all_patients();
+```
+
 ---
 
 ### Select All Doctors (id, name)
@@ -268,4 +331,9 @@ Used to select all doctor's id and name in database
 ```sql
 	doctor_id bigint, 
 	doctor_name text
+```
+
+#### Query
+```sql
+SELECT * FROM public.fn_select_all_doctor_name_id();
 ```
