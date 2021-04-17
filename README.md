@@ -255,3 +255,26 @@ Used to select all patient's in database
 		doctor_contact_number text,
 		covid_patient_flag boolean
 ```
+
+---
+
+### Function Name
+```sql
+fn_select_all_doctor_name_id
+```
+
+### Function Parameter
+```sql
+  void
+```
+
+### Function Descriptions
+
+Used to select all doctor's id and name in database
+
+
+### Returns
+```sql
+	doctor_id bigint, 
+	doctor_name text
+```
