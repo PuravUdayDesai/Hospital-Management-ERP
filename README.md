@@ -1,6 +1,9 @@
 # RPPOOP-HospitalManagement
 Mini Project for subject RPPOOP(Rapid Prototyping Object Oriented Programming)
 
+## Database Schema
+![image](https://user-images.githubusercontent.com/44437936/115153106-d8a00580-a091-11eb-99d7-6d6593b141d2.png)
+
 ## Database Function Documentation
 
 ### Add Doctor
