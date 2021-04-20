@@ -340,3 +340,34 @@ Used to select all doctor's id and name in database
 ```sql
 SELECT * FROM public.fn_select_all_doctor_name_id();
 ```
+
+---
+
+### Select All Patients (id, name, age)
+
+#### Function Name
+```sql
+fn_select_all_patients_analysis
+```
+
+#### Function Parameter
+```sql
+  void
+```
+
+#### Function Descriptions
+
+Used to select all doctor's id and name in database
+
+
+#### Returns
+```sql
+	patient_id bigint, 
+	patient_name text,
+	patient_age integer
+```
+
+#### Query
+```sql
+SELECT * FROM public.fn_select_all_patients_analysis();
+```
