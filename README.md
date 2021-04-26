@@ -6,11 +6,11 @@ Mini Project for subject RPPOOP(Rapid Prototyping Object Oriented Programming)
 ### Maven Dependencies
 
 ```xml
-  	<dependency>
-  		<groupId>org.apache.commons</groupId>
-  		<artifactId>commons-csv</artifactId>
-  		<version>1.8</version>
-  	</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-csv</artifactId>
+    <version>1.8</version>
+</dependency>
 ```
 
 ### Screenshots
