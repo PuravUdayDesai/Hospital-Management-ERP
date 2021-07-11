@@ -1,4 +1,4 @@
-# [RPPOOP - Hospital Management](https://puravudaydesai.github.io/Rapid-Prototyping-And-ObjectOrientedProgramming/)
+# [RPPOOP - Hospital Management Application](https://puravudaydesai.github.io/Rapid-Prototyping-And-ObjectOrientedProgramming/)
 Mini Project for subject RPPOOP(Rapid Prototyping Object Oriented Programming)
 
 * [Assignment](https://github.com/PuravUdayDesai/Rapid-Prototyping-And-ObjectOrientedProgramming/blob/assignments/README.md)
