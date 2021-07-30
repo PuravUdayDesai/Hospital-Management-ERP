@@ -15,7 +15,7 @@ public void jspInit()
 	try
 	{
 	Class.forName("org.postgresql.Driver");
-	c=DriverManager.getConnection("");
+	c = DriverManager.getConnection("");
 	}
 	catch(Exception e)
 	{
